@@ -36,7 +36,7 @@ jobs:
   unit-test:
     strategy:
       matrix:
-        go: ['1.23', '1.24']
+        go: ['1.25', '1.26']
 
         # Intentionally use specific versions instead of "latest" to
         # make this build reproducible.
